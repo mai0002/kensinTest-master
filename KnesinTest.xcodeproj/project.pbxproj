@@ -11,7 +11,8 @@
 		721FB4D02133D8A900E1CE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FB4CF2133D8A900E1CE28 /* ViewController.swift */; };
 		721FB4D32133D8A900E1CE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FB4D12133D8A900E1CE28 /* Main.storyboard */; };
 		721FB4D52133D8AB00E1CE28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721FB4D42133D8AB00E1CE28 /* Assets.xcassets */; };
-		721FB4D82133D8AB00E1CE28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FB4D62133D8AB00E1CE28 /* LaunchScreen.storyboard */; };
+		721FB4D82133D8AB00E1CE28 /* A.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FB4D62133D8AB00E1CE28 /* A.storyboard */; };
+		EF508C01213681E300073340 /* toViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF508C00213681E300073340 /* toViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +21,9 @@
 		721FB4CF2133D8A900E1CE28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		721FB4D22133D8A900E1CE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		721FB4D42133D8AB00E1CE28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		721FB4D72133D8AB00E1CE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		721FB4D72133D8AB00E1CE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/A.storyboard; sourceTree = "<group>"; };
 		721FB4D92133D8AB00E1CE28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF508C00213681E300073340 /* toViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 			children = (
 				721FB4CD2133D8A900E1CE28 /* AppDelegate.swift */,
 				721FB4CF2133D8A900E1CE28 /* ViewController.swift */,
+				EF508C00213681E300073340 /* toViewController2.swift */,
 				721FB4D12133D8A900E1CE28 /* Main.storyboard */,
 				721FB4D42133D8AB00E1CE28 /* Assets.xcassets */,
-				721FB4D62133D8AB00E1CE28 /* LaunchScreen.storyboard */,
+				721FB4D62133D8AB00E1CE28 /* A.storyboard */,
 				721FB4D92133D8AB00E1CE28 /* Info.plist */,
 			);
 			path = KnesinTest;
@@ -122,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721FB4D82133D8AB00E1CE28 /* LaunchScreen.storyboard in Resources */,
+				721FB4D82133D8AB00E1CE28 /* A.storyboard in Resources */,
 				721FB4D52133D8AB00E1CE28 /* Assets.xcassets in Resources */,
 				721FB4D32133D8A900E1CE28 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				721FB4D02133D8A900E1CE28 /* ViewController.swift in Sources */,
 				721FB4CE2133D8A900E1CE28 /* AppDelegate.swift in Sources */,
+				EF508C01213681E300073340 /* toViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,12 +155,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		721FB4D62133D8AB00E1CE28 /* LaunchScreen.storyboard */ = {
+		721FB4D62133D8AB00E1CE28 /* A.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				721FB4D72133D8AB00E1CE28 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = A.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NZ32G75QC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KnesinTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NZ32G75QC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KnesinTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

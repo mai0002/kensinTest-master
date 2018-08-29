@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KnesinTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KnesinTest" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,12 +65,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="9AQ-7J-Tru" kind="show" id="CDj-3s-lXh"/>
+                                    <segue destination="9AQ-7J-Tru" kind="presentation" id="o7m-ol-P0H"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jG-3J-NcH">
                                 <rect key="frame" x="75" y="162" width="120" height="50"/>
-                                <string key="text">Ststem VIVer6.5.1</string>
+                                <string key="text">Ststem VI
+Ver6.5.1</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -81,6 +82,14 @@
                                     <constraint firstAttribute="width" constant="69" id="XOo-cS-SLB"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kZ-DW-393">
+                                <rect key="frame" x="21" y="617" width="158" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Passwordを忘れた方へ"/>
+                                <connections>
+                                    <segue destination="5BE-87-zhl" kind="presentation" identifier="toViewController2" id="xai-xU-wz6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -148,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAi-Fg-V2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="134.48275862068968"/>
+            <point key="canvasLocation" x="945" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lca-ox-sV9">
@@ -174,7 +183,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GOc-46-YFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2559.1999999999998" y="134.48275862068968"/>
+            <point key="canvasLocation" x="1718" y="134"/>
+        </scene>
+        <!--A-->
+        <scene sceneID="MdU-7a-dtp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="A" id="5BE-87-zhl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSg-jQ-UeR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="446" y="601"/>
         </scene>
     </scenes>
     <resources>
